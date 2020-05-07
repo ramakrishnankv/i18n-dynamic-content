@@ -1,0 +1,48 @@
+:root {
+
+  /* COLORS */
+  --color-red: #ff0000;
+  --color-green: #00ff00;
+  --color-blue: #0000ff;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-01: #333333;
+  --color-gray-02: #666666;
+  --color-gray-03: #999999;
+  --color-gray-04: #bbbbbb;
+  --color-gray-05: #cccccc;
+  --color-gray-06: #eeeeee;
+
+  /* SIZES - PX */
+  --size-01: 1px;
+  --size-02: 2px;
+  --size-03: 3px;
+  --size-04: 4px;
+  --size-05: 5px;
+  --size-06: 6px;
+  --size-07: 7px;
+  --size-08: 8px;
+  --size-09: 9px;
+  --size-10: 10px;
+  --size-11: 11px;
+  --size-12: 12px;
+  --size-13: 13px;
+  --size-14: 14px;
+  --size-15: 15px;
+  --size-16: 16px;
+  --size-17: 17px;
+  --size-18: 18px;
+  --size-19: 19px;
+  --size-20: 20px;
+  --size-24: 24px;
+  --size-28: 28px;
+  --size-32: 32px;
+  --size-1000: 1000px;
+  --size-1200: 1200px;
+
+  /* SIZES - Percentage */
+  --size-per-01: 1%;
+  --size-per-5: 5%;
+  --size-per-10: 10%;
+
+}

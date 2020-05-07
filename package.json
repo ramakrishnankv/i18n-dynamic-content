@@ -1,0 +1,30 @@
+{
+  "name": "i18n-dynamic-content",
+  "version": "0.0.1",
+  "description": "Dynamically updating content using custom html elements, on change of locale. The content is served from js file in JSON format that is updated dynamically. Ccontents will update without a page  refresh. No external libraries used can adopt the approach in any other front-end technologies that uses JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ramakrishnankv/i18n-dynamic-content.git"
+  },
+  "keywords": [
+    "localization",
+    "internationalization",
+    "i18n",
+    "custom",
+    "html",
+    "element",
+    "dynamic",
+    "content",
+    "update"
+  ],
+  "author": "Ramki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramakrishnankv/i18n-dynamic-content/issues"
+  },
+  "homepage": "https://github.com/ramakrishnankv/i18n-dynamic-content#readme"
+}

@@ -1,0 +1,62 @@
+.titleRegular01,
+.titleRegular02,
+.titleRegular03,
+.titleRegular04,
+.titleRegular05 {
+  font-family: var(--fontFamily-01);
+  font-weight: bold;
+  color: var(--color-black);
+  line-height: 1.4;
+}
+
+.titleRegular01 {
+  font-size: var(--size-24);
+}
+
+.titleRegular02 {
+  font-size: var(--size-20);
+}
+
+.titleRegular03 {
+  font-size: var(--size-18);
+}
+
+.titleRegular04 {
+  font-size: var(--size-16);
+}
+
+.titleRegular05 {
+  font-size: var(--size-14);
+}
+
+.bodyRegular01,
+.bodyRegular02,
+.bodyRegular03,
+.bodyRegular04,
+.bodyHeavy01,
+.bodyHeavy02,
+.bodyHeavy03,
+.bodyHeavy04
+ {
+  font-family: var(--fontFamily-03);
+  font-weight: normal;
+  color: var(--color-black);
+  line-height: 1.4;
+}
+
+.bodyHeavy01,
+.bodyHeavy02,
+.bodyHeavy03,
+.bodyHeavy04 {
+  font-weight: bold;
+}
+
+.bodyRegular02 {
+  font-family: var(--fontFamily-03);
+}
+.bodyRegular03 {
+  font-family: var(--fontFamily-04);
+}
+.bodyRegular04 {
+  font-family: var(--fontFamily-05);
+}

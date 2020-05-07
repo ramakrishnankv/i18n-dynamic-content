@@ -1,0 +1,46 @@
+/* @font-face {
+    font-family: "fontFamily-01";
+    src: url("../../fonts/ml-IN/Dyuthi3.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fontFamily-02";
+    src: url("../../fonts/ml-IN/Rachana_04.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fontFamily-03";
+    src: url("../../fonts/ml-IN/Samyak-Malayalam.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontFamily-04';
+    src: url('../../fonts/ml-IN/meera-webfont.woff') format('woff2'),
+         url('../../fonts/ml-IN/meera-webfont.woff') format('woff'),
+         url('../../fonts/ml-IN/Meera.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fontFamily-05";
+    src: url("../../fonts/ml-IN/suruma2.ttf");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+:root {
+    --fallbackFonts:  'Times New Roman', Times, serif;
+    --fontFamily-01: Georgia, var(--fallbackFonts);
+    --fontFamily-02: Georgia, var(--fallbackFonts);
+    --fontFamily-03: Georgia, var(--fallbackFonts);
+    --fontFamily-04: Georgia, var(--fallbackFonts);
+    --fontFamily-05: Georgia, var(--fallbackFonts);
+}

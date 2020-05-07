@@ -1,0 +1,39 @@
+@import 'normalize.css';
+@import 'typography.css';
+@import 'common.css';
+
+/* typography */
+.appTitleRegular01 {
+    font-family: var(--fontFamily-03);
+    font-size: 23px;
+}
+
+app-content {
+    display: block;
+}
+
+a,
+a:active,
+a:hover,
+a:focus {
+    color: blue;
+    text-decoration: none;
+}
+
+a.selected {
+    color: chocolate;
+}
+
+*:empty {
+    background-image: linear-gradient(-90deg, rgba(100, 100, 100, 0.4), rgba(100, 100, 100, 0.2));
+    min-height: 20px;
+}
+
+* {
+    transition: all 0.5s ease-in-out;
+}
+
+.mal {
+    font-family: var(--fontFamily-01);
+    
+}

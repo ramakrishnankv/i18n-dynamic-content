@@ -1,0 +1,46 @@
+/* @font-face {
+    font-family: "fontFamily-01";
+    src: url("../../fonts/ml-IN/Dyuthi3.ttf");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/* @font-face {
+    font-family: "fontFamily-02";
+    src: url("../../fonts/ml-IN/Rachana.ttf");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: "fontFamily-01";
+    src: url("../../fonts/ml-IN/Samyak-Malayalam.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'fontFamily-04';
+    src: url('../../fonts/ml-IN/meera-webfont.woff') format('woff2'),
+         url('../../fonts/ml-IN/meera-webfont.woff') format('woff'),
+         url('../../fonts/ml-IN/Meera.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/* @font-face {
+    font-family: "fontFamily-05";
+    src: url("../../fonts/ml-IN/suruma2.ttf");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+:root {
+    --fallbackFonts: 'Kartika', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    --fontFamily-01: "fontFamily-01", var(--fallbackFonts);
+    --fontFamily-02: "fontFamily-01", var(--fallbackFonts);
+    --fontFamily-03: "fontFamily-01", var(--fallbackFonts);
+    --fontFamily-04: "fontFamily-01", var(--fallbackFonts);
+    --fontFamily-05: "fontFamily-01", var(--fallbackFonts);
+}

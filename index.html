@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Localization</title>
+  <link rel="stylesheet" id="localeFont" href="src/css/ml-IN/font.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="src/css/app.css" type="text/css" charset="utf-8" />
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2 class="titleRegular01">Dynamic i18n</h2>
+    <p>
+      This Demo page is to showcase how i18n (internationalization) works. Key approach is to update the language change
+      without refreshing the page. Loads locale specific contents dynamically, whenever language is changed and
+      updating the
+      translated
+      content to match the selected language. Importantly, this uses custom html element so that the content update is
+      easily done.</p>
+    <p>
+      Select a language from the links below to change the language. Observe that the language is changed without page
+      refresh.</p>
+    <p><i>Note: The content used in this demo is translated using Google translation service.</i>
+    </p>
+    <nav id="topNav">
+      <span>Language: &gt;</span>
+      <a href="#" onclick="changeLanguage('en-US')">English</a> |
+      <a href="#" onclick="changeLanguage('ml-IN')">Malayalam</a> |
+      <a href="#" onclick="changeLanguage('ta-IN')">Tamil</a> |
+      <a href="#" onclick="changeLanguage('hi-IN')">Hindi</a>
+    </nav>
+  </header>
+  <main class="main">
+    <h3 class="titleRegular02">
+      <app-content label="adiShankaracharya" />
+    </h3>
+    <figure>
+      <img class="photo" src="src/images/adi-shankaracharya.jpg" alt="Adi Shankaracharya" />
+    </figure>
+    <div class="contentContainer">
+      <p class="bodyRegular01">
+        <app-content label="aboutShankaracharya" />
+      </p>
+      <p class="bodyRegular02">
+        <app-content label="worksShankaracharya" />
+      </p>
+      <p class="bodyRegular03">
+        <app-content label="travelShankara" />
+      </p>
+    </div>
+  </main>
+  <footer>
+    <small>&copy; copyright &reg; Registered</small>
+  </footer>
+  <script src="src/locale/en-US/index.js" id="locales"></script>
+  <script src="src/scripts/localeContent.js"></script>
+</body>
+
+</html>
