@@ -59,4 +59,5 @@
 }
 .bodyRegular04 {
   font-family: var(--fontFamily-05);
+  font-size: var(--size-16);
 }

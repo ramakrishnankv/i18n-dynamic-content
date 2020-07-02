@@ -15,3 +15,7 @@ On selecting language;
 - Custom HTML element (tag) has been created using window.customElement.define().
 - When locale file is loaded, this custom element will re-rendered to refresh the content.
 - Used CSS variables
+
+## Deployed
+
+- You can see the page here: https://ramakrishnankv.github.io/i18n-dynamic-content/

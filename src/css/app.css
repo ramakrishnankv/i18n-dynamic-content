@@ -33,6 +33,12 @@ a.selected {
     transition: all 0.5s ease-in-out;
 }
 
+hr,
+hr:empty {
+  height: 1px;
+  min-height: auto;
+}
+
 .mal {
     font-family: var(--fontFamily-01);
     
